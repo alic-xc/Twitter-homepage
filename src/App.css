@@ -41,14 +41,17 @@
   line-height: 5px;
   margin-right:10px;
 }
-.main-pane .pane{
- 
-}
+
 .main-pane .pane section{
   width:100%;
   padding:10px;
 }
 .pane .flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pane .button-display{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
