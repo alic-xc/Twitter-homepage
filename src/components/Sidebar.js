@@ -16,9 +16,9 @@ export const Sidebar = () =>{
                     <p>join Twitter today</p>
 
                 </section>
-                <section>
-                    <button>Sign up</button>
-                    <button>Log in</button>
+                <section className="button-display">
+                    <button style={buttonStyle}>Sign up</button>
+                    <button style={buttonStyle}>Log in</button>
                 </section>
             </div>
         </div>
@@ -26,5 +26,10 @@ export const Sidebar = () =>{
 
 }
 
+const buttonStyle = {
+    padding:"5px",
+    width:"150px",
+    
+}
 
 
